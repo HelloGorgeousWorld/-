@@ -1,0 +1,21 @@
+/* 公共样式 */
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+    /* 去除下划线 */
+    a{text-decoration: none;}
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none
+}
+/* 设置一个类 */
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
